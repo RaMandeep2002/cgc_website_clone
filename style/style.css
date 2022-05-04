@@ -23,7 +23,7 @@ body {
     height: 100vh;
     z-index: 1;
     overflow: visible;
-    background: #fff url('CGC.jpg') no-repeat center center;
+    background: #fff url('../CGC.jpg') no-repeat center center;
 }
 
 .navbar .logo {
