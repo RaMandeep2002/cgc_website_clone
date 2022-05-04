@@ -1,0 +1,125 @@
+body {
+    background-color: aliceblue;
+    margin: 0;
+}
+
+.navbar {
+    background-color: rgb(43, 40, 40);
+    height: 85px;
+    width: 95%;
+    position: absolute;
+    transition: top 0.3s;
+    top: 0;
+    margin-top: 15px;
+    margin-left: 40px;
+    border-radius: 30px;
+    filter: drop-shadow(-7px -4px 4px rgb(93, 93, 93)) drop-shadow(8px 3px 5px rgb(121, 122, 122));
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#loader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    overflow: visible;
+    background: #fff url('CGC.jpg') no-repeat center center;
+}
+
+.navbar .logo {
+    float: left;
+    font-size: 22px;
+}
+
+.navbar .logo img {
+    height: 65px;
+    float: left;
+    width: 48px;
+    margin-left: 4rem;
+    margin-top: 10px;
+}
+
+.navbar .logo h1 {
+    font-size: 25px;
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 8rem;
+    width: 15rem;
+}
+
+.navbar .menubar {
+    float: right;
+    margin-right: 2rem;
+    /* margin-top: 17px; */
+}
+
+.navbar .menubar .btn {
+    background-color: aqua;
+    color: black;
+    border-radius: 30px;
+    filter: drop-shadow(-7px -4px 4px rgb(0, 0, 0)) drop-shadow(8px 3px 5px rgb(122, 122, 122));
+}
+
+.navbar .menubar .btn:hover {
+    background-color: rgb(43, 40, 40);
+    color: whitesmoke;
+    transition: 1.5s;
+}
+
+.navbar .menubar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 15px;
+    text-decoration: none;
+    position: relative;
+    margin-top: 15px;
+    margin-right: 10px;
+    font-size: 15px;
+    border-radius: 30px;
+    filter: drop-shadow(-7px -4px 4px rgb(0, 0, 0)) drop-shadow(8px 3px 5px rgb(122, 122, 122));
+}
+
+.navbar .menubar a:hover {
+    background-color: rgb(189, 189, 189);
+    color: black;
+    transition: 0.5s;
+}
+
+ul li {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.section {
+    background-color: rgba(255, 246, 246, 0.753);
+    height: 45rem;
+    display: block;
+    padding: 35px;
+    padding-top: 5rem;
+}
+
+.section p {
+    font-size: 20px;
+    color: white;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.one {
+    background-image: url("cgc_main.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.one p {
+    font-size: 50px;
+    margin-top: 15rem;
+    color: white;
+    margin-left: 15px;
+    width: auto;
+}
+
+.three {
+    background-color: rgba(242, 247, 252, 0.722);
+    top: 0;
+}
