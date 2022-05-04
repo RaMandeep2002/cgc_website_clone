@@ -105,7 +105,7 @@ ul li {
 }
 
 .one {
-    background-image: url("cgc_main.jpg");
+    background-image: url("../cgc_main.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
