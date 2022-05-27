@@ -145,6 +145,8 @@ ul li {
     background-color: aliceblue;
     width: 90rem;
     height: 35rem;
+    -webkit-box-shadow: 21px 21px 49px #202020, -21px -21px 49px #6d6d6d;
+    box-shadow: 21px 21px 49px #202020, -21px -21px 49px #6d6d6d;
 }
 
 .two .about_content .text_area {
