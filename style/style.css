@@ -109,7 +109,7 @@ ul li {
 }
 
 .one {
-    background-image: url("../cgc_main.jpg");
+    background-image: url("../images/cgc_main.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -129,7 +129,7 @@ ul li {
 }
 
 .two {
-    background-image: url("../cgc_about.jpg");
+    background-image: url("../images/cgc_about.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -142,7 +142,7 @@ ul li {
 }
 
 .two .about_content {
-    background-color: aliceblue;
+    background-color: #d7d6d5;
     width: 90rem;
     height: 35rem;
     -webkit-box-shadow: 21px 21px 49px #202020, -21px -21px 49px #6d6d6d;
@@ -159,4 +159,51 @@ ul li {
 
 .two .about_content .image_area {
     display: inline-block;
+    width: 35rem;
+}
+
+.image_area .box_one {
+    width: 15rem;
+    height: 15rem;
+    display: inline-block;
+    border: #fff 10px solid;
+    background-color: #d7d6d5;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.image_area .box_two {
+    width: 15rem;
+    height: 15rem;
+    display: inline-block;
+    border: #fff 10px solid;
+    background-color: #d7d6d5;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.image_area .box_one img {
+    width: 15rem;
+    transition: all .3s ease;
+}
+
+.image_area .box_two img {
+    width: 15rem;
+    transition: all .3s ease;
+}
+
+.two .image_area .box_one,
+.box_two p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.image_area .box_two h5 {
+    font-size: 15px;
+}
+
+.image_area .box_two p {
+    font-size: 15px;
 }
