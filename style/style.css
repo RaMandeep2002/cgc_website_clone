@@ -6,13 +6,13 @@ body {
 .navbar {
     background-color: rgb(43, 40, 40);
     height: 85px;
-    width: 95%;
+    width: 100%;
     position: absolute;
     transition: top 0.3s;
     top: 0;
-    margin-top: 15px;
-    margin-left: 40px;
-    border-radius: 30px;
+    /* margin-top: 15px; */
+    /* margin-left: 40px; */
+    /* border-radius: 30px; */
     filter: drop-shadow(-7px -4px 4px rgb(93, 93, 93)) drop-shadow(8px 3px 5px rgb(121, 122, 122));
     font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
@@ -50,7 +50,11 @@ body {
 .navbar .menubar {
     float: right;
     margin-right: 2rem;
-    /* margin-top: 17px; */
+}
+
+.navbar #myLinks {
+    display: none;
+    overflow: hidden;
 }
 
 .navbar .menubar .btn {
@@ -71,8 +75,9 @@ body {
     text-align: center;
     padding: 12px 15px;
     text-decoration: none;
+    display: block;
     position: relative;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-right: 10px;
     font-size: 15px;
     border-radius: 30px;
@@ -87,11 +92,10 @@ body {
 
 ul li {
     display: inline-block;
-    margin-top: 15px;
 }
 
 .section {
-    background-color: rgba(255, 246, 246, 0.753);
+    /* background-color: rgba(255, 246, 246, 0.753); */
     height: 45rem;
     display: block;
     padding: 35px;
@@ -100,7 +104,7 @@ ul li {
 
 .section p {
     font-size: 20px;
-    color: white;
+    /* color: white; */
     font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
@@ -122,4 +126,38 @@ ul li {
 .three {
     background-color: rgba(242, 247, 252, 0.722);
     top: 0;
+}
+
+.two {
+    background-image: url("../cgc_about.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.two p {
+    color: #a50034;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.two .about_content {
+    background-color: aliceblue;
+    width: 90rem;
+    height: 35rem;
+}
+
+.two .about_content .text_area {
+    margin: 15px;
+    padding: 2rem;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.two .about_content .image_area {
+    margin: 15px;
+    padding: 2rem;
+    
+    display: inline-block;
+    margin-right: 15px;
 }
