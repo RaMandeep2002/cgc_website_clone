@@ -150,14 +150,11 @@ ul li {
 .two .about_content .text_area {
     margin: 15px;
     padding: 2rem;
+    width: 35rem;
     margin-right: 15px;
     display: inline-block;
 }
 
 .two .about_content .image_area {
-    margin: 15px;
-    padding: 2rem;
-    
     display: inline-block;
-    margin-right: 15px;
 }
